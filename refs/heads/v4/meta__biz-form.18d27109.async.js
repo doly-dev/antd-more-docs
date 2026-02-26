@@ -737,9 +737,9 @@ const twoColSpan = {
 
 const BaseInfo = () => {
   const [form] = BizForm.useForm();
-  const orgType = BizForm.useWatch(['orgType'], form);
+  const orgTypeValue = BizForm.useWatch(['orgType'], form);
 
-  const isEnterprise = orgType === EOrgType.Enterprise;
+  const isEnterprise = orgTypeValue === EOrgType.Enterprise;
   const legalIdCardLabel = \`\${isEnterprise ? '\u6CD5\u4EBA' : ''}\u8EAB\u4EFD\u8BC1\u53F7\`;
   const legalMobileLabel = \`\${isEnterprise ? '\u6CD5\u4EBA' : ''}\u624B\u673A\u53F7\u7801\`;
   const orgNamePlaceholder = \`\u8BF7\u8F93\u5165\${
