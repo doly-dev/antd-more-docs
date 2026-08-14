@@ -1,0 +1,280 @@
+"use strict";(self.webpackChunkantd_more=self.webpackChunkantd_more||[]).push([[7509],{96277:function(u,_,e){e.r(_);var t=e(90228),i=e.n(t),a=e(87999),m=e.n(a),o=e(26068),r=e.n(o),M=e(48305),v=e.n(M),s=e(67825),y=e.n(s),O=e(75271),C=e(39697),b=e(3582),d=e(10893),W=e.n(d),B=e(24577),L=e(49638),D=e(48298),E=e(8078),I=e(56683),T=e(54650),n=e(52676),j=["labelWidth","hideLabel","layout","requiredMark","size","variant","children"],N=function(c){var R=c.labelWidth,F=R===void 0?84:R,K=c.hideLabel,Z=K===void 0?!1:K,U=c.layout,$=U===void 0?"horizontal":U,g=c.requiredMark,G=g===void 0?!0:g,x=c.size,X=x===void 0?"middle":x,S=c.variant,Q=S===void 0?"outlined":S,V=c.children,H=y()(c,j),J=(0,O.useId)(),k={labelWidth:F,hideLabel:Z,layout:$,requiredMark:G,size:X,variant:Q},Y=(0,b.Z)(r()({},k)),w=v()(Y,2),h=w[0],P=w[1];return(0,n.jsxs)("div",{className:"demo-form",children:[(0,n.jsx)(B.Z,{bordered:!1,items:[{key:"1",label:"\u5207\u6362\u663E\u793A/\u9690\u85CF\u914D\u7F6E\u9762\u677F",extra:(0,n.jsx)(L.ZP,{type:"link",size:"small",onClick:function(l){l.stopPropagation(),P(r()({},k))},children:"\u70B9\u51FB\u6062\u590D\u521D\u59CB\u914D\u7F6E"}),children:(0,n.jsxs)(D.Z,{gap:16,align:"center",wrap:!0,children:[(0,n.jsxs)("div",{children:["layout:\xA0",(0,n.jsx)(E.default,{options:[{label:"vertical",value:"vertical"},{label:"horizontal",value:"horizontal"},{label:"inline",value:"inline"}],value:h.layout,onChange:function(l){P({layout:l})},style:{width:120}})]}),(0,n.jsxs)("div",{children:["requiredMark:\xA0",(0,n.jsx)(E.default,{options:[{label:"true",value:!0},{label:"false",value:!1},{label:"optional",value:"optional"},{label:"customize",value:"customize"}],value:h.requiredMark,onChange:function(l){P({requiredMark:l})},style:{width:120}})]}),(0,n.jsxs)("div",{children:["size:\xA0",(0,n.jsx)(E.default,{options:[{label:"small",value:"small"},{label:"middle",value:"middle"},{label:"large",value:"large"}],value:h.size,onChange:function(l){P({size:l})},style:{width:120}})]}),(0,n.jsxs)("div",{children:["variant:\xA0",(0,n.jsx)(E.default,{options:[{label:"outlined",value:"outlined"},{label:"filled",value:"filled"},{label:"borderless",value:"borderless"},{label:"underlined",value:"underlined"}],value:h.variant,onChange:function(l){P({variant:l})},style:{width:120}})]}),(0,n.jsxs)("div",{children:["labelWidth:\xA0",(0,n.jsx)(E.default,{options:[{label:"84",value:84},{label:"98",value:98},{label:"112",value:112},{label:"126",value:126},{label:"140",value:140},{label:"154",value:154},{label:"168",value:168},{label:"auto",value:"auto"}],value:h.labelWidth,onChange:function(l){P({labelWidth:l})},style:{width:120}})]}),(0,n.jsxs)("div",{children:["hideLabel:\xA0",(0,n.jsx)(I.Z,{value:h.hideLabel,onChange:function(l){P({hideLabel:l})}})]})]})}]}),(0,n.jsx)(T.Z,{}),(0,n.jsx)(C.ZP,r()(r()(r()({name:J,onFinish:function(){var p=m()(i()().mark(function l(A){return i()().wrap(function(f){for(;;)switch(f.prev=f.next){case 0:return f.next=2,(0,d.sleep)(500);case 2:console.log(A);case 3:case"end":return f.stop()}},l)}));return function(l){return p.apply(this,arguments)}}(),scrollToFirstError:{behavior:function(l){l.forEach(function(A){var z=A.el,f=A.top;z.scrollTop=f-76})}}},h),H),{},{children:V}))]})};_.default=N},13419:function(u,_,e){e.r(_);var t=e(26068),i=e.n(t),a=e(82092),m=e.n(a),o=e(67825),r=e.n(o),M=e(75271),v=e(14933),s=e(82187),y=e.n(s),O=e(50809),C=e.n(O),b=e(95978),d=e(52676),W=["valid","className","contentAutoWidth"],B=function(D){var E=D.valid,I=D.className,T=D.contentAutoWidth,n=r()(D,W);return(0,d.jsx)(v.Z,i()({addonAfter:"\u5143",min:0,precision:2,gte:0,useFloor:!0,className:y()(I,m()({},b.default.contentAutoWidth,T)),transform:E?function(j){return(0,O.isValidNumber)(j,!0)?j:""}:void 0},n))};_.default=B},15230:function(u,_,e){e.r(_),e.d(_,{BillAccountOptions:function(){return r},CycleOptions:function(){return m},ECycle:function(){return a},RakebackeCycleOptions:function(){return o},pcOptions:function(){return M},pcaOptions:function(){return v}});var t=e(83853),i=e.n(t),a=function(s){return s.Day="1",s.Month="2",s.Quarter="3",s}({}),m=[{label:"\u6309\u65E5",value:a.Day},{label:"\u6309\u6708",value:a.Month},{label:"\u6309\u5B63\u5EA6",value:a.Quarter}],o=[{label:"\u65E5\u8FD4",value:a.Day},{label:"\u6708\u8FD4",value:a.Month}],r=[{label:"\u5F20\u4E09",value:"a"},{label:"\u674E\u56DB",value:"b"}],M=(0,t.getPC)({fieldNames:{code:"value",name:"label"},inland:!0}),v=(0,t.getPCA)({fieldNames:{code:"value",name:"label"},inland:!0})},95978:function(u,_,e){e.r(_);var t=e(22235),i=e.n(t),a=e(5008),m=e.n(a),o=e(71367),r=e.n(o),M=e(76268),v=e.n(M),s=e(47125),y=e.n(s),O=e(54088),C=e.n(O),b=e(18382),d={};d.styleTagTransform=C(),d.setAttributes=v(),d.insert=r().bind(null,"head"),d.domAPI=m(),d.insertStyleElement=y();var W=i()(b.Z,d);_.default=b.Z&&b.Z.locals?b.Z.locals:void 0},18382:function(u,_,e){var t=e(67416),i=e.n(t),a=e(62839),m=e.n(a),o=m()(i());o.push([u.id,`.OX1PG_WSPOEFbMr3n48l .antd-more-form-item-wrapper {
+  align-items: start;
+}
+.OX1PG_WSPOEFbMr3n48l .antd-more-form-item-wrapper-content {
+  flex: none;
+  width: 215px;
+}
+.OX1PG_WSPOEFbMr3n48l .antd-more-form-item-wrapper-after {
+  flex: 1 1;
+  color: gray;
+  padding-block: 5px;
+}
+`,""]),o.locals={contentAutoWidth:"OX1PG_WSPOEFbMr3n48l"},_.Z=o},30336:function(u,_){_.Z=`import React, { useId } from 'react';
+import { BizForm, BizFormProps } from 'antd-more';
+import { useSetState } from 'rc-hooks';
+import { sleep } from 'ut2';
+import { Button, Collapse, Divider, Flex, Select, Switch } from 'antd';
+
+const DemoForm: React.FC<BizFormProps> = ({
+  labelWidth = 84,
+  hideLabel = false,
+  layout = 'horizontal',
+  requiredMark = true,
+  size = 'middle',
+  variant = 'outlined',
+  children,
+  ...restProps
+}) => {
+  const formName = useId();
+  const defaultState = { labelWidth, hideLabel, layout, requiredMark, size, variant };
+  const [state, setState] = useSetState({ ...defaultState });
+
+  return (
+    <div className="demo-form">
+      <Collapse
+        bordered={false}
+        items={[
+          {
+            key: '1',
+            label: '\u5207\u6362\u663E\u793A/\u9690\u85CF\u914D\u7F6E\u9762\u677F',
+            extra: (
+              <Button
+                type="link"
+                size="small"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setState({ ...defaultState });
+                }}
+              >
+                \u70B9\u51FB\u6062\u590D\u521D\u59CB\u914D\u7F6E
+              </Button>
+            ),
+            children: (
+              <Flex gap={16} align="center" wrap>
+                <div>
+                  layout:&nbsp;
+                  <Select
+                    options={[
+                      { label: 'vertical', value: 'vertical' },
+                      { label: 'horizontal', value: 'horizontal' },
+                      { label: 'inline', value: 'inline' }
+                    ]}
+                    value={state.layout}
+                    onChange={(value) => {
+                      setState({ layout: value });
+                    }}
+                    style={{ width: 120 }}
+                  />
+                </div>
+                <div>
+                  requiredMark:&nbsp;
+                  <Select
+                    options={[
+                      { label: 'true', value: true },
+                      { label: 'false', value: false },
+                      { label: 'optional', value: 'optional' },
+                      { label: 'customize', value: 'customize' }
+                    ]}
+                    value={state.requiredMark}
+                    onChange={(value) => {
+                      setState({ requiredMark: value });
+                    }}
+                    style={{ width: 120 }}
+                  />
+                </div>
+                <div>
+                  size:&nbsp;
+                  <Select
+                    options={[
+                      { label: 'small', value: 'small' },
+                      { label: 'middle', value: 'middle' },
+                      { label: 'large', value: 'large' }
+                    ]}
+                    value={state.size}
+                    onChange={(value) => {
+                      setState({ size: value });
+                    }}
+                    style={{ width: 120 }}
+                  />
+                </div>
+                <div>
+                  variant:&nbsp;
+                  <Select
+                    options={[
+                      { label: 'outlined', value: 'outlined' },
+                      { label: 'filled', value: 'filled' },
+                      { label: 'borderless', value: 'borderless' },
+                      { label: 'underlined', value: 'underlined' }
+                    ]}
+                    value={state.variant}
+                    onChange={(value) => {
+                      setState({ variant: value });
+                    }}
+                    style={{ width: 120 }}
+                  />
+                </div>
+                <div>
+                  labelWidth:&nbsp;
+                  <Select
+                    options={[
+                      { label: '84', value: 84 },
+                      { label: '98', value: 98 },
+                      { label: '112', value: 112 },
+                      { label: '126', value: 126 },
+                      { label: '140', value: 140 },
+                      { label: '154', value: 154 },
+                      { label: '168', value: 168 },
+                      { label: 'auto', value: 'auto' }
+                    ]}
+                    value={state.labelWidth}
+                    onChange={(value) => {
+                      setState({ labelWidth: value });
+                    }}
+                    style={{ width: 120 }}
+                  />
+                </div>
+                <div>
+                  hideLabel:&nbsp;
+                  <Switch
+                    value={state.hideLabel}
+                    onChange={(v) => {
+                      setState({
+                        hideLabel: v
+                      });
+                    }}
+                  />
+                </div>
+              </Flex>
+            )
+          }
+        ]}
+      />
+      <Divider />
+      <BizForm
+        name={formName}
+        onFinish={async (values) => {
+          await sleep(500);
+          console.log(values);
+        }}
+        scrollToFirstError={{
+          behavior(actions) {
+            actions.forEach(({ el, top }) => {
+              // implement the scroll anyway you want
+              el.scrollTop = top - 76;
+            });
+          }
+        }}
+        {...state}
+        {...restProps}
+      >
+        {children}
+      </BizForm>
+    </div>
+  );
+};
+
+export default DemoForm;
+`},23364:function(u,_){_.Z=`.contentAutoWidth {
+  :global {
+    .antd-more-form-item-wrapper {
+      align-items: start;
+
+      &-content {
+        flex: none;
+        width: 215px;
+      }
+      &-after {
+        flex: 1;
+        color: gray;
+        padding-block: 5px;
+      }
+    }
+  }
+}
+`},8524:function(u,_){_.Z=`import React from 'react';
+import { BizFormItemNumber, BizFormItemNumberProps } from 'antd-more';
+import classNames from 'classnames';
+import { isValidNumber } from 'util-helpers';
+import styles from './index.module.less';
+
+export interface ItemNumberMoneyProps extends BizFormItemNumberProps {
+  valid?: boolean;
+  contentAutoWidth?: boolean;
+}
+
+const ItemNumberMoney: React.FC<ItemNumberMoneyProps> = ({
+  valid,
+  className,
+  contentAutoWidth,
+  ...restProps
+}) => {
+  return (
+    <BizFormItemNumber
+      addonAfter="\u5143"
+      min={0}
+      precision={2}
+      gte={0} // \u9632\u6B62\u8868\u5355\u8D4B\u503C\u5C0F\u4E8E0
+      useFloor
+      className={classNames(className, { [styles.contentAutoWidth]: contentAutoWidth })}
+      transform={valid ? (v) => (isValidNumber(v, true) ? v : '') : undefined}
+      {...restProps}
+    />
+  );
+};
+
+export default ItemNumberMoney;
+`},30286:function(u,_){_.Z=`import { getPC, getPCA } from 'lcn';
+
+// \u5468\u671F
+// 1-\u65E5 2-\u6708 3-\u5B63
+export enum ECycle {
+  Day = '1',
+  Month = '2',
+  Quarter = '3'
+}
+export const CycleOptions = [
+  {
+    label: '\u6309\u65E5',
+    value: ECycle.Day
+  },
+  {
+    label: '\u6309\u6708',
+    value: ECycle.Month
+  },
+  {
+    label: '\u6309\u5B63\u5EA6',
+    value: ECycle.Quarter
+  }
+];
+
+// \u8FD4\u4F63\u5468\u671F\u9009\u9879
+export const RakebackeCycleOptions = [
+  {
+    label: '\u65E5\u8FD4',
+    value: ECycle.Day
+  },
+  {
+    label: '\u6708\u8FD4',
+    value: ECycle.Month
+  }
+];
+
+// \u6536\u6B3E\u8D26\u53F7\u9009\u9879
+export const BillAccountOptions = [
+  {
+    label: '\u5F20\u4E09',
+    value: 'a'
+  },
+  {
+    label: '\u674E\u56DB',
+    value: 'b'
+  }
+];
+
+// \u7701\u5E02\u6570\u636E
+export const pcOptions = getPC({ fieldNames: { code: 'value', name: 'label' }, inland: true });
+
+// \u7701\u5E02\u533A\u6570\u636E
+export const pcaOptions = getPCA({ fieldNames: { code: 'value', name: 'label' }, inland: true });
+`}}]);
